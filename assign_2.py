@@ -139,13 +139,13 @@ INPUT: A plaintext plan from the Planner Agent.
 OUTPUT: Return ONLY the following sections in Markdown:
 
 ## Summary (2–3 sentences)
-A plain-language summary of the trip and any major feasibility risks.
+A plain language summary of the trip and any major feasibility risks.
 
 ## Validated Itinerary
-- Day-by-day bullets with: time window, place/activity, neighborhood/city, transit note, and EST. COST (USD).
+- Day by day bullets with: time window, place/activity, neighborhood/city, transit note, and EST. COST (USD).
 - Make small surgical edits if the original plan is infeasible (swap times, pick similar alternatives close by, etc.). Keep the intent.
 
-## Delta List (what changed and why)
+## What changed and why
 - Bullet list of corrections you made (e.g., different museum hours, moved lunch for transfer buffer, swapped closed venue).
 
 ## Budget Check
